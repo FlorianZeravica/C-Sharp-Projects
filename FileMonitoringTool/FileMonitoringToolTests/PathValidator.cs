@@ -1,15 +1,14 @@
 ﻿using NUnit.Framework;
 using FileMonitoringTool;
 
-namespace FileMonitoringToolTests
+namespace FileMonitoringTests
 {
     internal sealed class PathValidatorTests
     {
-        [TestCase(@"C:\_Code\R17\diva4\Solutions\DivaWeb", true)]
-        [TestCase(@"\\mv100\Ablage\Entwicklung\DIVA\DIVA4\Betriebsstatistik\Vorlagen(Crystal Reports)", true)]
+        [TestCase(@"C:\User\Admin\Directory", true)]
 
         [TestCase("", false)]
-        [TestCase(@"C:\_Code\R17\diva4\Solut", false)]
+        [TestCase(@"\User\Admin\Directory", false)]
 
 
         public void CreateAndWriteFile(string defaultValue, bool expectedResult)

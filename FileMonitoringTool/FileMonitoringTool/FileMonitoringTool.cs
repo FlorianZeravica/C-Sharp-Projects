@@ -3,7 +3,7 @@
     class FileMonitoringTool
     {
         private const string ReportExtension = "*.pdf";
-        private const string FileName = "DataMonitoringFile";
+        private const string FileName = "MonitoringFile";
         private const string FileExtension = ".csv";
 
         /// <summary>

@@ -1,7 +1,9 @@
 ﻿using NUnit.Framework;
 using FileMonitoringTool;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace FileMonitoringToolTests
+namespace FileMonitoringTests
 {
     internal sealed class GetSubdirectoriesTests
     {
