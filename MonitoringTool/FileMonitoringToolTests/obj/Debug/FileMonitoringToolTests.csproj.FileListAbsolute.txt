@@ -1,0 +1,1 @@
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\FileMonitoringTool\FileMonitoringToolTests\obj\Debug\FileMonitoringToolTests.csprojResolveAssemblyReference.cache
